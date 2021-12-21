@@ -1,0 +1,10 @@
+[
+	{
+		"fecha_receta_medica": "agsadgas",
+		"nombre_paciente": "julio",
+		"edad": "sdfsdf",
+		"diagnostico": "sdfdsf",
+		"frecuencia_duracion_tratamiento": "sdfsdf",
+		"medicamento": []
+	}
+]

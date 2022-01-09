@@ -111,4 +111,4 @@ async function menu_medicamento() {
 
 menu_principal().then(r => '')
 
-module.exports = {menu_principal, menu_receta_medica, menu_medicamento}
+

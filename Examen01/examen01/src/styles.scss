@@ -1,0 +1,543 @@
+
+/* You can add global styles to this file, and also import other style files */
+app-navegacion {
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #99abb4;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: 400;
+  text-align: left;
+  color: #8a8a8a;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  background-color: #f7fbff;
+  line-height: 1.5;
+}
+
+
+.search-icon{
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: calc(65px - 3px);
+  color: #ededed;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+.ion-md-menu {
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: calc(65px - 3px);
+  color: #ededed;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+.header-navbar{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  display: block;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  z-index: 1040;
+  border-bottom: 1px solid #e9eaec;
+  margin-bottom: 0;
+  -webkit-transition: all .2s ease;
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.16);
+  background-color: #223143;
+}
+
+.header-container{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0 20px;
+  line-height: 0;
+  float: left;
+  width: 268px;
+  -webkit-transition: all .2s ease;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.a-002 {
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  color: #04a1f4;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  max-width: 216px;
+  width: 100%;
+}
+
+.logo-logo-dark{
+  background-image: url('https://pelisplushd.net/images/logo/logo5.png');
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  color: #04a1f4;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center left;
+  width: 100%;
+  min-height: calc(65px - 1px);
+  display: block;
+}
+
+.nav-left {
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 0;
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.li-001 {
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  list-style: none;
+  box-sizing: border-box;
+  float: left;
+}
+
+.a-001{
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  font-size: 14px;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 12px;
+  line-height: calc(65px - 3px);
+  min-height: calc(65px - 3px);
+  -webkit-transition: all .2s ease-in-out;
+  display: block;
+  color: #ededed;
+}
+
+.search-toggle {
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  font-size: 14px;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 12px;
+  line-height: calc(65px - 3px);
+  min-height: calc(65px - 3px);
+  display: block;
+  -webkit-transition: all .2s ease-in-out;
+  color: #ededed;
+}
+
+.ion-md-menu{
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: calc(65px - 3px);
+  color: #ededed;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+.search-icon{
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: calc(65px - 3px);
+  color: #ededed;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+
+
+.search-box {
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  list-style: none;
+  box-sizing: border-box;
+  float: left;
+}
+
+.side-nav-expand {
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  width: 250px;
+  z-index: 1000;
+  top: 65px;
+  bottom: 0;
+  position: fixed;
+  overflow: hidden;
+  -webkit-transition: all .2s ease;
+  background-color: #223143;
+  color: #99abb4;
+  border-color: transparent;
+  box-shadow: 3px 0 4px 0 rgba(0,0,0,.43);
+}
+
+.side-nav-inner{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #99abb4;
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+}
+
+.side-nave-menu-scrollable{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #99abb4;
+  box-sizing: border-box;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 20px;
+  overflow: auto;
+  height: calc(100vh - 65px);
+  border-right: 1px solid transparent;
+}
+
+.side-nav-header{
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  color: #99abb4;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 10px 20px;
+  opacity: .7;
+  margin-top: 15px;
+}
+
+.nav-item-dropdown-open{
+  font-weight: 400;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #99abb4;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+
+.nav-001{
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  line-height: 1.5;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: all .3s ease;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: 400;
+  color: #515365;
+}
+
+.title{
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.arrow {
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: 400;
+  box-sizing: border-box;
+  position: absolute;
+  right: 30px;
+  line-height: 30px;
+  -webkit-transition: all 50ms ease-in;
+  -webkit-transform: rotate(90deg);
+  color: #fff;
+}
+
+.icon-holder{
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+  color: #99abb4;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  margin-right: 14px;
+  font-size: 20px;
+  border-radius: 6px;
+  -webkit-transition: all .3s ease;
+}
+
+.row-aling-items-center-justifiy-content-center{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+.btn-ver-mas{
+  word-wrap: break-word;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  border-radius: .25rem;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  font-size: 14px;
+  padding: 7px 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  -webkit-transition: all .3s ease-in-out;
+  background-color: #04a1f4;
+  border-color: #04a1f4;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  font-weight: 400;
+  text-align: left;
+  color: #8a8a8a;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  display: block;
+  padding: 0 30px;
+  border-color: transparent;
+  box-shadow: 2px -1px 28px 3px rgba(0,0,0,.43);
+}
+
+.footer{
+  font-weight: 400;
+  text-align: left;
+  color: #8a8a8a;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  box-sizing: border-box;
+  padding: 20px 0;
+  font-size: 90%;
+  border-top: 1px solid #e9eaec;
+}
+
+.copyright {
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-size: 90%;
+  box-sizing: border-box;
+  color: #fff;
+}
+.copy-span1{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-size: 90%;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.copy-b{
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-size: 90%;
+  box-sizing: border-box;
+  font-weight: bolder;
+  color: #fff!important;
+}
+
+.go-right{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-size: 90%;
+  color: #fff;
+  box-sizing: border-box;
+  float: right;
+}
+
+.footer-term-condi{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  line-height: 1.5;
+  font-size: 90%;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 15px!important;
+  color: #fff!important;
+}
+
+.footer-pri-poli{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  line-height: 1.5;
+  font-size: 90%;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  color: #fff!important;
+}
+
+.footer-contacto{
+  font-weight: 400;
+  text-align: left;
+  font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+  line-height: 1.5;
+  font-size: 90%;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  color: #fff!important;
+}

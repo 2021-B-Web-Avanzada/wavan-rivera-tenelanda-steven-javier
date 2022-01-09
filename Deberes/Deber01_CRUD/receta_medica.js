@@ -7,13 +7,13 @@ const ingreso_datos_receta_medica = () => {
         [
             {
                 type: 'input',
-                name: 'fecha_receta_medica',
-                message: 'Ingrese la fecha de la receta medica'
+                name: 'nombre_paciente',
+                message: 'Ingresa el nombre del paciente de la receta medica'
             },
             {
                 type: 'input',
-                name: 'nombre_paciente',
-                message: 'Ingresa el nombre del paciente de la receta medica'
+                name: 'fecha_receta_medica',
+                message: 'Ingrese la fecha de la receta medica'
             },
             {
                 type: 'input',
@@ -72,9 +72,9 @@ async function actualizar_receta_medica() {
         }
     )
     const receta_medica = await ingreso_datos_receta_medica();
-    let menu_auxiliar = jsonFile[indexUpdate].medicamento
+    let menuAuxiliar = jsonFile[indexUpdate].medicamento
     jsonFile[indexUpdate] = receta_medica
-    jsonFile[indexUpdate].medicamento = menu_auxiliar
+    jsonFile[indexUpdate].medicamento = menuAuxiliar
     await ga.escribir_archivo(jsonFile)
 }
 

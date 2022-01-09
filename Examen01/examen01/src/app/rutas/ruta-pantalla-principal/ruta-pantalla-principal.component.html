@@ -1,0 +1,510 @@
+
+<aside class="side-nav-expand" >
+  <div class="side-nav-inner" >
+    <ul class="side-nave-menu-scrollable" >
+      <li class="side-nav-header">
+        <span>Navegación</span>
+      </li>
+
+      <app-navegacion *ngFor="let item of arregloNavegacion; let i = index"
+                      [icono_]="item.icono"
+                      [titulo_]="item.titulo"
+
+      [flecha_]="item.flecha">
+
+      </app-navegacion>
+
+    </ul>
+  </div>
+</aside>
+
+<div class="app header-info side-nav-dark" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': '#8a8a8a',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box'
+}">
+  <div class="layout" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': '#8a8a8a',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box'
+}">
+
+
+
+    <div class="page-container" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': '#8a8a8a',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box',
+    'min-height': '100vh',
+    'padding-left': '250px',
+    '-webkit-transition': 'all .2s ease',
+    'background-color': '#223143'
+}">
+      <section class="main-content" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': '#8a8a8a',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box',
+    'padding': 'calc(65px + 35px) 15px 15px',
+    'min-height': 'calc(100vh - 65px)'
+}">
+        <div class="container-fluid" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': '#8a8a8a',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box',
+    'width': '100%',
+    'padding-right': '.5px',
+    'padding-left': '.5px',
+    'margin-right': 'auto',
+    'margin-left': 'auto'
+}">
+          <div class="row" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': '#8a8a8a',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box',
+    'display': 'flex',
+    'flex-wrap': 'wrap',
+    'margin-right': '-15px',
+    'margin-left': '-15px'
+}">
+            <div class="col-md-12" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'color': 'yellow',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box',
+    'min-height': '1px',
+    'position': 'relative',
+    'width': '100%',
+    'padding-right': '15px',
+    'padding-left': '15px',
+    'flex': '0 0 100%',
+    'max-width': '100%'
+
+}">
+              <div class="card" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-seri',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'box-sizing': 'border-box',
+    'display': 'flex',
+    'flex-direction': 'column',
+    'min-width': '0',
+    'word-wrap': 'break-word',
+    'background-clip': 'border-box',
+    'position': 'relative',
+    'margin-bottom': '30px',
+    'border': '1px solid #e9eaec',
+    'border-radius': '0',
+    '-webkit-transition': 'all .3s ease-in-out',
+    'border-color': 'transparent',
+    'box-shadow': '0 0 20px 6px rgba(0,0,0,.43)',
+    'background-color': '#223143',
+    'color': '#fff'
+
+}">
+                <div class="col-md-12" [ngStyle]="{
+                          'font-weight': '400',
+                          'text-align': 'left',
+                          'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                          '-webkit-font-smoothing': 'antialiased',
+                          'font-size': '14px',
+                          'line-height': '1.5',
+
+                        'word-wrap': 'break-word',
+                        'color': '#fff',
+                        'box-sizing': 'border-box',
+                        'min-height': '1px',
+                        'position': 'relative',
+                        'width': '100%',
+                        'padding-right': '15px',
+                        'padding-left': '15px',
+                        'flex': '0 0 100%',
+                        'max-width': '100%'
+                }">
+                    <div class="card-header border bottom" [ngStyle]="{
+                                  'font-weight': '400',
+                                  'text-align': 'center',
+                                  'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                                  '-webkit-font-smoothing': 'antialiased',
+                                  'font-size': '14px',
+                                  'line-height': '1.5',
+                                  'word-wrap': 'break-word',
+                                  'box-sizing': 'border-box',
+                                  'margin-bottom': '0',
+                                  'color': 'inherit',
+                                  'position': 'relative',
+                                  'min-height': '55px',
+                                  'background-color': 'transparent',
+                                  'padding': '15px, 25px',
+                                  'border': '0px solid #dee2e6!important',
+                                  'border-bottom': '56px none #e9eaec !important'
+
+
+                    }">
+                        <h1 [ngStyle]="{
+                              '-webkit-font-smoothing': 'antialiased',
+                              'word-wrap': 'break-word',
+                              'box-sizing': 'border-box',
+                              'font-family': 'inherit',
+                              'font-weight': '400',
+                              'line-height': '1.5',
+                              'text-align': 'center!important',
+                              'margin-top': '0',
+                              'display': 'block!important',
+                              'font-size': '20px',
+                              'color': '#fff',
+                              'margin-bottom': '0'
+                        }">PELISPLUS - VER PELICULAS Y SERIES ONLINE EN HD
+                        </h1>
+                        <h3 [ngStyle]="{
+                               'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                               '-webkit-font-smoothing': 'antialiased',
+
+                              'line-height': '1.5',
+                              'word-wrap': 'break-word',
+                              'box-sizing': 'border-box',
+                              'text-align': 'center!important',
+                              'margin-top': '0',
+                              'display': 'block!important',
+                              'font-size': '20px',
+                              'color': '#fff',
+                              'margin-bottom': '0'
+                        }">
+                          <a href="https://www.facebook.com/pelisplushd.net" [ngStyle]="{
+                                    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                                'line-height': '1.5',
+                                'word-wrap': 'break-word',
+                                'text-align': 'center!important',
+                                'font-size': '20px',
+                                'box-sizing': 'border-box',
+                                'text-decoration': 'none',
+                                'background-color': 'transparent',
+                                'color': '#04a1f4',
+                                '-webkit-font-smoothing': 'antialiased'
+                          }">
+                            Pagina de facebook nueva
+                          </a>
+                        </h3>
+
+                      <h3 [ngStyle]="{
+                                'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                              '-webkit-font-smoothing': 'antialiased',
+
+                              'line-height': '1.5',
+                              'word-wrap': 'break-word',
+                              'box-sizing': 'border-box',
+                              'text-align': 'center!important',
+                              'margin-top': '0',
+                              'display': 'block!important',
+                              'font-size': '20px',
+                              'color': '#fff',
+                              'margin-bottom': '0'
+                        }">
+                        <a href="https://t.me/+bCXjq5R55zJhODlh" [ngStyle]="{
+                                'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                                'line-height': '1.5',
+                                'word-wrap': 'break-word',
+                                'text-align': 'center!important',
+                                'font-size': '20px',
+                                'box-sizing': 'border-box',
+                                'text-decoration': 'none',
+                                'background-color': 'transparent',
+                                'color': 'yellow',
+                                '-webkit-font-smoothing': 'antialiased'
+
+
+                          }">
+                          Enlace de telegram Unete y recibe ofertas!
+                        </a>
+                      </h3>
+                    </div>
+                </div>
+                <div class="card-body" [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'word-wrap': 'break-word',
+    'color': '#fff',
+    'box-sizing': 'border-box',
+    'flex': '1 1 auto',
+    'padding': '25px',
+    'position': 'relative',
+    'background': '-webkit-linear-gradient(rgba(34,49,67,.94),rgba(34,49,67,.95)),url(https://pelisplushd.net/images/body_wall.jpg)'
+}">
+
+                  <div class="tab-info" [ngStyle]="{
+                    'font-weight': '400',
+                    'text-align': 'left',
+                    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                    '-webkit-font-smoothing': 'antialiased',
+                    'font-size': '14px',
+                    'line-height': '1.5',
+                    'word-wrap': 'break-word',
+                    'color': '#fff',
+                    'box-sizing': 'border-box'
+                }">
+                    <ul class="nav nav-tabs" [ngStyle]="{
+                          'margin-top': '0',
+                          'display': 'flex',
+                          'flex-wrap': 'wrap',
+                          'padding-left': '0',
+                          'margin-bottom': '0',
+                          'list-style': 'none',
+                          'border-bottom': '1px solid #e9eaec'
+                  }">
+                      <li class="nav-item" [ngStyle]="{
+                              'list-style': 'none',
+                              'box-sizing': 'border-box',
+                              'margin-bottom': '-1px'
+                      }">
+                        <a href="" [ngStyle]="{
+                              'text-decoration': 'none',
+                              '-webkit-font-smoothing': 'antialiased',
+                              'margin-right': '0',
+                              'line-height': '2.5',
+                              'border-radius': '0',
+                              'display': 'block',
+                              'padding': '10px 15px',
+                              '-webkit-transition': 'all .3s ease-in-out',
+                              'border-top-left-radius': '.25rem',
+                              'border-top-right-radius': '.25rem',
+                              'border': '0',
+                              'opacity': '1',
+                              'border-color': '#dee2e6 #dee2e6 #fff',
+                              'border-bottom': '2px solid #04a1f4',
+                              'background-color': '#223143',
+                              'color': '#fff'
+                        }">PELICULAS</a>
+                      </li>
+                      <li class="nav-item" [ngStyle]="{
+                              'list-style': 'none',
+                              'box-sizing': 'border-box',
+                              'margin-bottom': '-1px'
+                      }">
+                        <a href="" [ngStyle]="{
+                              'text-decoration': 'none',
+                              '-webkit-font-smoothing': 'antialiased',
+                              'margin-right': '0',
+                              'line-height': '2.5',
+                              'border-radius': '0',
+                              'display': 'block',
+                              'padding': '10px 15px',
+                              '-webkit-transition': 'all .3s ease-in-out',
+                              'border-top-left-radius': '.25rem',
+                              'border-top-right-radius': '.25rem',
+                              'border': '0',
+                              'opacity': '1',
+                              'border-color': '#dee2e6 #dee2e6 #fff',
+                              'border-bottom': '2px solid #04a1f4',
+                              'background-color': '#223143',
+                              'color': '#fff'
+                        }">SERIES</a>
+                      </li>
+                      <li class="nav-item" [ngStyle]="{
+                              'list-style': 'none',
+                              'box-sizing': 'border-box',
+                              'margin-bottom': '-1px'
+                      }">
+                        <a href="" [ngStyle]="{
+                              'text-decoration': 'none',
+                              '-webkit-font-smoothing': 'antialiased',
+                              'margin-right': '0',
+                              'line-height': '2.5',
+                              'border-radius': '0',
+                              'display': 'block',
+                              'padding': '10px 15px',
+                              '-webkit-transition': 'all .3s ease-in-out',
+                              'border-top-left-radius': '.25rem',
+                              'border-top-right-radius': '.25rem',
+                              'border': '0',
+                              'opacity': '1',
+                              'border-color': '#dee2e6 #dee2e6 #fff',
+                              'border-bottom': '2px solid #04a1f4',
+                              'background-color': '#223143',
+                              'color': '#fff'
+                        }">ANIMES</a>
+                      </li>
+                      <li class="nav-item" [ngStyle]="{
+                              'list-style': 'none',
+                              'box-sizing': 'border-box',
+                              'margin-bottom': '-1px'
+                      }">
+                        <a href="" [ngStyle]="{
+                              'text-decoration': 'none',
+                              '-webkit-font-smoothing': 'antialiased',
+                              'margin-right': '0',
+                              'line-height': '2.5',
+                              'border-radius': '0',
+                              'display': 'block',
+                              'padding': '10px 15px',
+                              '-webkit-transition': 'all .3s ease-in-out',
+                              'border-top-left-radius': '.25rem',
+                              'border-top-right-radius': '.25rem',
+                              'border': '0',
+                              'opacity': '1',
+                              'border-color': '#dee2e6 #dee2e6 #fff',
+                              'border-bottom': '2px solid #04a1f4',
+                              'background-color': '#223143',
+                              'color': '#fff'
+                        }">DORAMAS</a>
+                      </li>
+                    </ul>
+                    <!-- abierto 2-->
+                    <div class="tab-content" [ngStyle]="{
+                    'font-weight': '400',
+                    'text-align': 'left',
+                    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                    '-webkit-font-smoothing': 'antialiased',
+                    'font-size': '14px',
+                    'line-height': '1.5',
+                    'word-wrap': 'break-word',
+                    'color': '#fff',
+                    'box-sizing': 'border-box'
+
+}">                 <!--abierto 0-->
+                      <div class="tabpanel" [ngStyle]="{
+                          'font-weight': '400',
+                          'text-align': 'left',
+                          'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                          '-webkit-font-smoothing': 'antialiased',
+                          'font-size': '14px',
+                          'line-height': '1.5',
+                          'word-wrap': 'break-word',
+                          'color': '#fff',
+                          'box-sizing': 'border-box',
+                          'transition': 'opacity .15s linear',
+                          'display': 'block',
+                          'opacity': '1'
+                    }">
+                        <!--inicio 1-->
+                        <div class="Posters"  [ngStyle]="{
+    'font-weight': '400',
+    'text-align': 'left',
+    'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    'font-size': '14px',
+    'line-height': '1.5',
+    'word-wrap': 'break-word',
+    'color': '#fff',
+    'box-sizing': 'border-box',
+    'display': 'flex',
+    'flex-flow': 'row wrap',
+    'margin': '0 -.5rem'
+}">
+                          <app-banner-pelicula *ngFor="let pelicula of arregloPeliculas; let i = index" [ngStyle]="{
+                              'font-weight': '400',
+                              'text-align': 'left',
+                              'font-family': 'Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif',
+                              'line-height': '1.5',
+                              'word-wrap': 'break-word',
+                              'box-sizing': 'border-box',
+                              'text-decoration': 'none',
+                              'background-color': 'transparent',
+                              '-webkit-font-smoothing': 'antialiased',
+                              'position': 'relative',
+                              'flex-basis': '18.285714%',
+                              'max-width': '16.285714%',
+                              'display': 'inline-block',
+                              'color': '#070707',
+                              'width': '33.33%',
+                              'padding': '0 .5rem 1rem',
+                              'font-size': '13px'
+                        }" [nombrePelicula]="pelicula.nombre_pelicula!"
+                                               [calif]="pelicula.calificacion!"
+                                               [linkImagen]="pelicula.link_imagen!">
+                          </app-banner-pelicula>
+                        </div>
+                        <div class="row-aling-items-center-justifiy-content-center" >
+                          <span class="btn-ver-mas">Ver mas</span>
+
+                        </div>
+                        <!-- fin 1-->
+                      </div>
+                      <!--fin 0-->
+                    </div>
+                    <!-- fin 2-->
+                  </div>
+                  <!-- abierto 4-->
+                </div>
+                <!-- abierto 3-->
+
+                <!-- fin 3-->
+              </div>
+              <!-- fin 4-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer >
+        <div class="footer" >
+          <div class="copyright" >
+            <span class="copy-span1" >
+              "Copyright © 2021 "
+              <b class="copy-b">PELISPLUS</b>
+              ". All rights reserved."
+            </span>
+            <span class="go-right" >
+                <a class="footer-term-condi" href="" >Terminos y condiciones</a>
+                <a class="footer-pri-poli" href="" >Privacy & Policys</a>
+                <a class="footer-contacto" >Contacto</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

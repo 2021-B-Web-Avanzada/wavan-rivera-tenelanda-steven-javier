@@ -1,10 +1,41 @@
 [
 	{
-		"fecha_receta_medica": "agsadgas",
-		"nombre_paciente": "julio",
-		"edad": "sdfsdf",
-		"diagnostico": "sdfdsf",
-		"frecuencia_duracion_tratamiento": "sdfsdf",
-		"medicamento": []
+		"nombre_paciente": "Carlos Andrade",
+		"fecha_receta_medica": "2020-05-03",
+		"edad": "29",
+		"diagnostico": "Fiebre Reumatica",
+		"frecuencia_duracion_tratamiento": "Tomar el medicamento cada 6 horas durante 15 dias",
+		"medicamento": [
+			{
+				"nombre_medicamento": "acitromicina",
+				"concentracion": "156.45",
+				"via_administracion": "oral",
+				"forma_farmaceutica": "comprimidos",
+				"venta_libre": "false"
+			},
+			{
+				"nombre_medicamento": "ibuprofeno",
+				"concentracion": "445.33",
+				"via_administracion": "intravenosa",
+				"forma_farmaceutica": "liquido",
+				"venta_libre": "true"
+			}
+		]
+	},
+	{
+		"nombre_paciente": "Carlos Perez",
+		"fecha_receta_medica": "2020-05-04",
+		"edad": "58",
+		"diagnostico": "Resfriado",
+		"frecuencia_duracion_tratamiento": "Tomar el medicamento cada 6 horas durante 15 dias",
+		"medicamento": [
+			{
+				"nombre_medicamento": "paracetamol",
+				"concentracion": "678.45",
+				"via_administracion": "oral",
+				"forma_farmaceutica": "comprimidos",
+				"venta_libre": "true"
+			}
+		]
 	}
 ]

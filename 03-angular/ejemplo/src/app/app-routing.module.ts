@@ -9,27 +9,21 @@ import {RutaAppComponent} from "./rutas/ruta-app/ruta-app.component";
 import {RutaPostComponent} from "./rutas/ruta-post/ruta-post.component";
 import {EstaLogeadoGuard} from "./servicios/auth/esta-logeado.guard";
 import {EsAdministradorGuard} from "./servicios/auth/es-administrador.guard";
-import {RutaUsuarioPerfilComponent} from "./rutas/ruta-usuario-perfil/ruta-usuario-perfil.component";
-import {RutaSalaComponent} from "./rutas/ruta-sala/ruta-sala.component";
-import {RutaExamenWebsocketsComponent} from "./rutas/ruta-examen-websockets/ruta-examen-websockets.component";
 
 const routes: Routes = [
   {
     path: 'login',
     component: RutaLoginComponent,
   },
-  {
-    path: ':salaId/juegolaberinto/:nombre',
-    component: RutaExamenWebsocketsComponent
-  },
-  {
-    path: ':salaId/sala/:nombre',
-    component: RutaSalaComponent,
-  },
   { // app-routing.module.ts
     path: 'lazy-inventario',
     loadChildren: () => import('./modulos/modulo-inventario/modulo-inventario.module')
       .then(m => m.ModuloInventarioModule)
+  },
+  {
+    path: 'inicio',
+    canActivate: [EstaLogeadoGuard],
+    component: RutaInicioComponent,
   },
   {
     path: 'app',
@@ -40,20 +34,11 @@ const routes: Routes = [
         component: RutaUsuarioComponent
       },
       {
-        path: 'usuario/:idUsuario',
-        component: RutaUsuarioPerfilComponent
-      },
-      {
         path: 'post',
         component: RutaPostComponent,
         canActivate: [EsAdministradorGuard]
       }
     ]
-  },
-  {
-    path: 'inicio',
-    canActivate: [EstaLogeadoGuard],
-    component: RutaInicioComponent,
   },
   {
     path: 'forbidden',
@@ -71,7 +56,7 @@ const routes: Routes = [
   {
     path: '**',
     component: RutaNotFoundComponent
-  },
+  }
 ];
 
 @NgModule({

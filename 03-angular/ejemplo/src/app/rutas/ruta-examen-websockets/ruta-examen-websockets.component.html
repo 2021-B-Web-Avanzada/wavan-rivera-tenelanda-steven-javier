@@ -1,0 +1,128 @@
+<div class="container-fluid">
+
+  <div class="row" >
+    <div class="col-12" id="titulo-sala">
+      <h1 class="fw-bold">Sala: {{salaId}} </h1>
+    </div>
+
+  </div>
+  <div class="row" id="row-principal">
+
+      <div  class="col-2" id="jugadores">
+        <h2>Jugadores </h2>
+        <h3> steven</h3>
+        <h3> javier</h3>
+      </div>
+
+    <div id="laberinto" class="col-9">
+      <canvas
+        #game
+        width="680"
+        height="520"
+        style= "border: 1px solid black">
+      </canvas>
+
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="row justify-content-around">
+
+      <div class="col-3 " id="columna-controles">
+        <h1>Controles:</h1>
+      </div>
+
+      <div class="col-3" id="div_fondo" >
+        <div class="fila-centrar row" >
+          <div class="col-4">
+
+          </div>
+
+          <div class="arriba-abajo col-4" >
+            <button type="button" class="btn btn-primary" (click)="movimiento('arriba')">▲</button>
+          </div>
+
+          <div class="col-4">
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div id="izquierda" class="col-4">
+            <button  type="button" class="btn btn-primary" (click)="movimiento('izquierda')">◀</button>
+          </div>
+          <div class="col-4">
+
+          </div>
+          <div id="derecha" class="col-4">
+            <button  type="button" class="btn btn-primary" (click)="movimiento('derecha')">▶</button>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+
+          </div>
+
+          <div class="arriba-abajo col-4">
+            <button type="button" class="btn btn-primary" (click)="movimiento('abajo')">▼</button>
+          </div>
+
+          <div class="col-4">
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-3 " id="div_fondo2">
+        <div class="  fila centrar row">
+          <div class="col-4">
+
+          </div>
+          <div class="  arriba-abajo col-4">
+            <button type="button" class="btn btn-primary" (click)="movimiento('arriba2')">▲</button>
+          </div>
+          <div class="  col-4">
+
+          </div>
+        </div>
+        <div class="row">
+          <div id="izquierda2" class="col-4">
+            <button type="button" class="btn btn-primary" (click)="movimiento('izquierda2')">◀</button>
+          </div>
+          <div class="col-4">
+
+          </div>
+          <div id="derecha2" class="col-4">
+            <button type="button" class="btn btn-primary" (click)="movimiento('derecha2')">▶</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+
+          </div>
+          <div class="arriba-abajo col-4">
+            <button type="button" class="btn btn-primary" (click)="movimiento('abajo2')">▼</button>
+          </div>
+          <div class="col-4">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+

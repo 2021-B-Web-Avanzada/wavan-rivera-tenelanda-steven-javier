@@ -21,6 +21,13 @@
     "lib": [
       "es2020",
       "dom"
+    ],
+    //Phaser
+    "typeRoots": [
+      "./node_modules/phaser/types"
+    ],
+    "types": [
+      "Phaser"
     ]
   },
   "angularCompilerOptions": {

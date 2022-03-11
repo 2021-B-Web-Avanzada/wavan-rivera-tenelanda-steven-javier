@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>
+  GANASTE {{data.jugador_ganador}}
+</h1>
+<div mat-dialog-content>
+  El jugador {{data.jugador_ganador}} gano el juego
+</div>
+<div mat-dialog-actions>
+  <button class="btn btn-info"
+          mat-dialog-close (click)="cerrarDialogo()">CERRAR</button>
+</div>

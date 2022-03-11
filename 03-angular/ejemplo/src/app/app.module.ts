@@ -14,7 +14,25 @@ import {AuthService} from "./servicios/auth/auth.service";
 import {EstaLogeadoGuard} from "./servicios/auth/esta-logeado.guard";
 import {EsAdministradorGuard} from "./servicios/auth/es-administrador.guard";
 import {BannerImagenesModule} from "./componentes/banner-imagenes/banner-imagenes.module";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { RutaUsuarioPerfilComponent } from './rutas/ruta-usuario-perfil/ruta-usuario-perfil.component';
+import {InputSwitchModule} from "primeng/inputswitch";
+import {KnobModule} from "primeng/knob";
+import {SplitButtonModule} from "primeng/splitbutton";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {MatButtonModule} from "@angular/material/button";
+import { ModalEjemploComponent } from './componentes/modales/modal-ejemplo/modal-ejemplo.component';
+import {MatDialogModule} from "@angular/material/dialog";
+import {NgbButtonsModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {SocketIoModule} from "ngx-socket-io";
+import { RutaSalaComponent } from './rutas/ruta-sala/ruta-sala.component';
+import { RutaExamenWebsocketsComponent } from './rutas/ruta-examen-websockets/ruta-examen-websockets.component';
+import {KonvaNodeEvent} from "konva/lib/types";
+import { ModalJugadorGanadorComponent } from './componentes/modales/modal-jugador-ganador/modal-jugador-ganador.component';
 
+
+// @ts-ignore
 @NgModule({
   // Componentes
   declarations: [
@@ -25,22 +43,45 @@ import {BannerImagenesModule} from "./componentes/banner-imagenes/banner-imagene
     RutaInicioComponent,
     RutaUsuarioComponent,
     RutaPostComponent,
-    RutaAppComponent
+    RutaAppComponent,
+    RutaUsuarioPerfilComponent,
+    ModalEjemploComponent,
+    RutaSalaComponent,
+    RutaExamenWebsocketsComponent,
+    ModalJugadorGanadorComponent
   ],
   // Modulos Importados
   imports: [
     // app.module.ts
     BrowserModule,
     AppRoutingModule,
-    BannerImagenesModule
+    BannerImagenesModule,
+    //importamos el modulo httpclient
+    HttpClientModule,
+    //importar el modulo Forms
+    FormsModule, //Se usa para el Template Driven Forms
+    ReactiveFormsModule,
+    InputSwitchModule,
+    KnobModule,
+    SplitButtonModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatDialogModule,
+    NgbModule,
+    NgbButtonsModule,
+    SocketIoModule.forRoot({
+      url: 'ws://localhost:8080',
+      options: {}
+    }),
   ],
   // Servicios
   providers: [
     AuthService,
     EstaLogeadoGuard,
-    EsAdministradorGuard
+    EsAdministradorGuard,
   ],
   // Componente principal * aqui es donde empieza toodo
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}
